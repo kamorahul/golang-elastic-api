@@ -1,14 +1,14 @@
 # golang-elastic-api
 A working api with golang and oliver elastic search
-	Search	/set POST	"{
-		""api_key"" : ""String"",
-		""entity"" : ""String"",
-		""operation"" : ""add"" || ""update || delete"",
-		""id"" : ""String"",
-		""parent_id"" : ""String"", <Optional>
-		""source"" : <json> 
+		Search	/set POST	"{
+			""api_key"" : ""String"",
+			""entity"" : ""String"",
+			""operation"" : ""add"" || ""update || delete"",
+			""id"" : ""String"",
+			""parent_id"" : ""String"", <Optional>
+			""source"" : <json> 
 
-	}
+		}
 	Response 	{status : true}
 
 
